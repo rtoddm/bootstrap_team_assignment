@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+.link-text {
+	text-align: left;
+	font-family: serif;
+}
+
+h2 {
+	margin: 0px 0px 10px;
+	padding: 24px 0px;
+}
+
+.header-image-bg {
+	background-image: url("https://images.unsplash.com/photo-1543269664-7eef42226a21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80");
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-attachment: fixed;
+	min-width: 1920px;
+	min-height: 1080px;
+	display: flex;
+	position: relative;
+	z-index: -1;
+}
+
+.head {
+	color: inherit;
+	color: white;
+	font-weight: bold;
+	position:fixed;
+	z-index: -1;
+}
+
+.h-dash {
+	white-space: nowrap;
+	color: white;
+}
+
+.h-text {
+	display: flex;
+	position: relative;
+	top: 450px;
+}
+
+.lower-banner {
+	background-image: url("https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Agency-Gradient.jpg");
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: top;
+	background-size: cover;
+	min-width: 9vh;
+	min-height: 3.5vh;
+	display: flex;
+	position: relative;
+}
+
+.contain {
+	padding: 50px 0px;
+}
+
+.h2-text {
+	padding-top: 40px;
+	font-size: 40px;
+	font-family: serif;
+	text-align: left;
+}
+
+.space {
+}
+
+.main-content-image1 {
+	/* background-image: url("https://images.unsplash.com/photo-1543269664-7eef42226a21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80"); */
+	/* background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center; */
+	width: 70vw;
+	height: 46.666666666666666666666666666667vw;
+	display: block;
+	position: relative;
+	object-fit: cover;
+}
+
+
+.card-placer {
+	display: block;
+	position: relative;
+	background-color: #f4eae9;
+	float: right;
+	right: vw;
+}
+
+.card-header {
+	font-size: 48px;
+	background-color: #f4eae9;
+	border-bottom: none;
+	padding: 0;
+}
+
+.card-text {
+	font-size: 16px;
+}
+
+.link-text {
+	display: block;
+	color: red;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+@media {
+}
