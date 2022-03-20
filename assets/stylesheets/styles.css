@@ -27,20 +27,7 @@ a {
 	color: white;
 }
 
-/* <---- header-content ----> */
-.header-image-bg {
-	background-image: url("https://images.unsplash.com/photo-1543269664-7eef42226a21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80");
-	background-repeat: no-repeat;
-	background-position-x: center;
-	background-position-y: -550px;
-	background-attachment: fixed;
-	min-width: 1900px;
-	min-height: 1400px;
-	z-index: -1;
-	display: flex;
-	justify-content: center;
-}
-
+/* <---- Navbar ----> */
 .cont-clr {
 	display: flex;
 	justify-content: center;
@@ -51,7 +38,7 @@ a {
 }
 
 .col-pt {
-	display: flex;
+	/* display: flex; */
 	justify-content: center;
 }
 
@@ -68,9 +55,24 @@ a {
 	color: white;
 }
 
+/* <---- header-content ----> */
+.header-image-bg {   /* <---- Background-header-image attributes and values */
+	background-image: url("https://images.unsplash.com/photo-1543269664-7eef42226a21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80");
+	background-repeat: no-repeat;
+	background-position: center; /* <---- Centers both x and y axis of image */
+	/* background-attachment: fixed; */ /* <---- Uncomment for image to stay positioned with viewport while scrolling*/
+	min-width: 1900px;
+	min-height: 1400px;
+ /* z-index: -1; */ /* <---- Sets the z space position of the image to backwards or forward depending on the value entered */
+	display: flex;
+	justify-content: center;
+}
+
 .h-text {
-	position: fixed;
-	top: 550px;
+	/* position: fixed; */ /* <---- Uncomment for text to stay positioned with viewport while scrolling*/ 
+	/* top: 550px; */      /* <---- Uncomment for text to stay positioned with viewport while scrolling */
+	position: relative;    /* <---- Header-text responds to scrolling*/
+	top: 700px;            /* <---- Header-text moved to designated tagert area*/
 }
 
 .head {
@@ -132,6 +134,10 @@ a {
 	overflow: hidden;
 	animation-name: animate_fadeInDown;
 	z-index: 1;
+}
+
+@media {
+	
 }
 
 .card-text {
