@@ -1,0 +1,185 @@
+* {
+    box-sizing:border-box;
+}
+.home-row {
+    width:100%;
+}
+.img-b-g{
+    width: 100vw;
+    height: 800px;
+    background-image: url(https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-agency-header.jpg);
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat:repeat-y;
+    padding:0;
+    top:0px;
+    left:0px;
+    position:static;
+    z-index:0;
+}
+.title-blurb {
+    font-size: 68px;
+    font-family: big-caslon-fb;
+    font-weight:400;
+    position: absolute;
+    padding-top: 200px;
+    padding-right: 20%;
+    padding-left: 100px;
+    color:white;
+    line-height:1.5em;
+    
+}
+.banner-b-g {
+    bottom:0px;
+    height:200px;
+    width:100vw;
+    position:static;
+    background-image: url(https://sp-ao.shortpixel.ai/client/q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Agency-Gradient.jpg);
+    z-index:1000;
+}
+
+.btn-to-top {
+    position: fixed;
+    border:1px white solid;
+    bottom:5%;
+    right:5%;
+    z-index: 10;
+    color:white;
+    background-color:rgba(80,80,80,.3);
+}
+.images-scroller {
+    height:200px;
+    width: 200px;
+}
+
+#divisions-blurb {
+    position:static;
+    background-color:mistyrose;
+    width:100vw;
+    padding-bottom:2em;
+    padding-left:60px;
+    padding-right:60px;
+}
+.secondary-text-styling {
+    font-family: big-caslon-fb;
+    font-weight:300;
+    color:#202020;
+    text-align:center;
+    padding-top:2em;
+}
+.col-margins {
+    padding:0px 60px;
+}
+.bordered-text {
+    border:4px solid black;
+    padding:24px;
+}
+.p-styled {
+    font-family:sans-serif;
+    font-weight:10;
+}
+#quotes-blurb {
+    padding:50px;
+}
+.left-aligned {
+    text-align:left;
+}
+.quote-spaced {
+    line-height: 60px;
+    font-size:20px;
+}
+.quotee-spaced {
+    line-height:0px;
+    font-style:italic;
+}
+.img-contact-banner {
+    width: 100vw;
+    height: 300px;
+    background-image: url("https://sp-ao.shortpixel.ai/client/q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Marketing-Agency-Contact.jpg");
+    background-attachment: scroll;
+    background-repeat:repeat-y;
+    background-position: center;
+    padding:0;
+    top:0px;
+    left:0px;
+    position:static;
+    z-index:0;
+    align-items:center;
+}
+.contact-textboxing {
+    position:relative;
+    top:60px;
+    left:90px;
+    color:white;
+    max-width: 90vw;
+    text-decoration:none;
+}
+.contact-linking {
+    text-decoration:none;
+    position:relative;
+    top:46px;
+    font-family: big-caslon-fb;
+    color:white;
+}
+.contact-linking:hover {
+    text-decoration:none;
+    color:white;
+}
+.navbar-images{
+    height:60px;
+    padding-right:700px;
+    padding-left:100px;
+}
+#bg-transparent {
+    z-index:10;
+    background-color: rgba(0,0,0,.3);
+    position:fixed;
+    top:0;
+    left:0;
+    height:auto;
+    width:100vw;
+}
+.ft-style {
+	background-color: rgb(34, 39, 41);
+	margin: 20px 0 0 0;
+	position: relative;
+	z-index: 1;
+}
+
+.col-md-4 {
+	display: flex;
+	justify-content: space-evenly;
+	width: 300px;
+}
+
+.img-pt {
+	position: relative;
+	top: 80px;
+	right: 220px;
+}
+
+.ft-txt-style {
+	color: white;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 60px;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.copyright-container {
+	right: 400px;
+	position: relative;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.copyright,
+.copyright a {
+	font-size: 12px;
+	color: rgb(47, 83, 113);
+}
+.carousel-item {
+    padding-left:42.5% !important;
+}
